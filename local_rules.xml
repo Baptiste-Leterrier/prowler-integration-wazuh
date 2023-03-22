@@ -1,0 +1,8 @@
+<group name="prowler">
+  <rule id="111000" level="5">
+     <decoded_as>json</decoded_as>
+     <field name="AssessmentStartTime">\.+</field>
+     <field name="FindingUniqueId">\.+</field>
+     <description>Prowler Logs.</description>
+  </rule>
+</group>
